@@ -1,6 +1,6 @@
 // If you want to suggest a new language you can use this file as a template.
 // To reduce the file size you should remove the comment lines (the ones that start with // )
-if (!window.calendar_languages) {
+if(!window.calendar_languages) {
     window.calendar_languages = {};
 }
 // Here you define the language and Country code. Replace en-US with your own.
@@ -29,12 +29,12 @@ window.calendar_languages['fi-FI'] = {
     // {3} will be replaced with the year (example: 2013)
     title_day: '{0} {1} {2}, {3}',
 
-    week: 'Week',
-    all_day: 'Kaikki päivät',
-    time: 'Aika',
-    events: 'Tapahtumat',
+    week:'Week',
+    all_day:     'Kaikki päivät',
+    time:        'Aika',
+    events:      'Tapahtumat',
     before_time: 'Loppu ennen aikajanaa',
-    after_time: 'Alkaa aikajanan jälkeen',
+    after_time:  'Alkaa aikajanan jälkeen',
 
     m0: 'tammikuu',
     m1: 'helmikuu',
@@ -104,5 +104,6 @@ window.calendar_languages['fi-FI'] = {
     //   - From 1 January to 6 January: '01-01>06-01'
     //   - Easter and the day after Easter: 'easter>easter+1'
     //   Limitations: currently the multi-day holydays can't cross an year. So, for example, you can't specify a range as '30-12>01-01'; as a workaround you can specify two distinct holidays (for instance '30-12>31-12' and '01-01'). 
-    holidays: {}
+    holidays: {
+    }
 };

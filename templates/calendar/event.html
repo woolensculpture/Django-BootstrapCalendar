@@ -2,13 +2,21 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>{{ event.title }}</title>
+    <title>Event page</title>
 </head>
 <body>
-Event Title: {{ event.title }}
-Event ID: {{ event.id }}
-Event Start: {{ event_start }}
-Event End: {{ event_end }}
-Event Type: {{ event.type }}
+<!-- page that renders in the modal page change to your tastes and needs-->
+<article>
+    Event Title: {{ Event.title }}
+</article>
+<article>
+    Event Type:  {{ Event.type}}
+</article>
+<article>
+    Event start: {{ Event.start_datetime }}
+</article>
+<article>
+    Event end:   {{ Event.end_datetime }}
+</article>
 </body>
 </html>

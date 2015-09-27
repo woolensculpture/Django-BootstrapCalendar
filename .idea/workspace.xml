@@ -1,7 +1,634 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ea32905-3242-4257-bc07-c24caf191417" name="Default" comment="" />
+    <list default="true" id="8ea32905-3242-4257-bc07-c24caf191417" name="Default" comment="added most features to the">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ar-SA.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/bg-BG.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/es-CO.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/id-ID.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/jquery/jquery-1.11.3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/jquery/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/jquery/jquery-1.11.3.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/calendar/modal_popup.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/moment/moment-with-locales.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/moment/moment-with-locales.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/sk-SR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/underscore/underscore-min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/zh-TW.js" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap-calendar\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap-calendar\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap-calendar\index-bs3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap-calendar\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap-calendar\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\css\bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\css\docs.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\google-code-prettify\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\google-code-prettify\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\holder\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\assets\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\base-css.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\build\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\build\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\components.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\customize.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\fluid.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\hero.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\justified-nav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\marketing-narrow.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\signin.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\starter-template.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\sticky-footer-navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\examples\sticky-footer.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\extend.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\getting-started.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\docs\scaffolding.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\server.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-affix.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-alert.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-button.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-carousel.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-phantom.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-popover.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-scrollspy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-tab.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-tooltip.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-transition.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\unit\bootstrap-typeahead.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\vendor\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\vendor\qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\js\tests\vendor\qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\accordion.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\alerts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\bootstrap.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\breadcrumbs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\button-groups.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\buttons.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\carousel.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\close.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\code.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\component-animations.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\dropdowns.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\forms.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\grid.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\hero-unit.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\labels-badges.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\layouts.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\media.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\modals.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\navs.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\pager.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\pagination.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\popovers.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\progress-bars.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\reset.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\responsive-1200px-min.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\responsive-767px-max.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\responsive-768px-979px.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\responsive-navbar.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\responsive-utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\responsive.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\scaffolding.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\sprites.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\buttons.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\css-tests.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\css-tests.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\forms-responsive.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\navbar-fixed-top.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\navbar-static-top.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tests\navbar.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\thumbnails.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\tooltip.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\type.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\utilities.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\variables.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\less\wells.less" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\bootstrap\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\build\release-notes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\build\release.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\jquery-migrate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\jquery-migrate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\benchmark.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\benchmarker.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\benchmarker.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\closest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\css.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\event.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\filter.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\find.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\jquery-basis.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\speed\slice.vs.concat.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\ajax\jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\ajax\script.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\ajax\xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\event-alias.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\exports.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\intro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\offset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\outro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\src\wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\.jshintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\ajax\unreleasedXHR.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\badjson.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\cleanScript.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\core\cc_on.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\dashboard.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\dimensions\documentLarge.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\dimensions\documentSmall.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\event\focusElem.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\event\promiseReady.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\event\syncReady.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\iframe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\jquery-1.9.1.ajax_xhr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\json_obj.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\manipulation\iframe-denied.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\name.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\offset\absolute.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\offset\body.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\offset\fixed.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\offset\relative.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\offset\scroll.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\offset\static.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\offset\table.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\readywaitloader.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\selector\html5_selector.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\selector\sizzle_cache.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\support\bodyBackground.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\support\boxSizing.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\support\csp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\support\shrinkWrapBlocks.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\support\testElementCrash.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\test2.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\testinit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\testrunner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\testsuite.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\data\with_fries.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\delegatetest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\hovertest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\localfile.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\networkerror.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\readywait.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\core.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\css.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\data.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\effects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\event.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\exports.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\offset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\selector.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\support.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\jquery\test\unit\wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\ender.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\grunt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\cv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\da.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\eo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\eu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\hu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\is.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ko.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\nb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ne.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\tzm-la.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\tzm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\uk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\lang\zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\cv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\da.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\eo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\eu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\hu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\is.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ko.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\nb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ne.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\tzm-la.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\tzm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\uk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\lang\zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\langs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\langs.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\min\moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\moment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\package.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\tasks\concat-lang.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\tasks\history.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\tasks\minify-lang.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\tasks\minify.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\tasks\size.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\tasks\zone.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\tasks\zones.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ar-ma.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\bg.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\cs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\cv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\da.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\de.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\en-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\en-gb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\en.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\eo.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\es.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\et.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\eu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\fi.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\fr-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\fr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\gl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\he.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\hu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\id.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\is.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\it.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ja.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ko.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\lv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\nb.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ne.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\nl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\pl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\pt-br.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\pt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ro.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\ru.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\sl.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\sv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\th.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\tr.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\tzm-la.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\tzm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\uk.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\zh-cn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\lang\zh-tw.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\add_subtract.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\create.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\days_in_month.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\diff.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\duration.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\format.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\getters_setters.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\is_after.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\is_before.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\is_moment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\is_same.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\is_valid.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\lang.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\leapyear.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\mutable.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\preparse_postformat.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\sod_eod.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\utc.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment\test\moment\weeks.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\docs\docco.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\docs\underscore.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\arrays.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\chaining.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\collections.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\functions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\objects.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\speed.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\utility.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\vendor\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\vendor\jslitmus.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\vendor\qunit.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\vendor\qunit.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore\test\vendor\runner.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap-calendar\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap-calendar\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap-calendar\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap-calendar\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap-calendar\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap-calendar\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap-calendar\web.config" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\ico\apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\ico\apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\ico\apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\ico\apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\ico\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\ico\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bootstrap-docs-readme.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bootstrap-mdo-sfmoma-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bootstrap-mdo-sfmoma-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bootstrap-mdo-sfmoma-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bs-docs-bootstrap-features.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bs-docs-masthead-pattern.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bs-docs-responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\bs-docs-twitter-github.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\8020select.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\adoptahydrant.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\breakingnews.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\fleetio.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\gathercontent.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\jshint.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\kippt.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\example-sites\soundready.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-carousel.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-fluid.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-justified-nav.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-marketing-narrow.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-marketing.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-signin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-starter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\bootstrap-example-sticky-footer.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\browser-icon-chrome.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\browser-icon-firefox.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\browser-icon-safari.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\slide-01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\slide-02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\examples\slide-03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\grid-baseline-20px.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\less-logo-large.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\img\responsive-illustrations.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\assets\js\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\layout.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\base-css.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\components.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\customize.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\extend.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\getting-started.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\index.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\javascript.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\docs\templates\pages\scaffolding.mustache" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\img\glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\img\glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\bootstrap\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\.gitmodules" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\.mailmap" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\MIT-LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\component.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\src\sizzle-jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\.jshintignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\1x1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\atom+xml.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\badcall.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\echoData.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\echoQuery.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\errorWithJSON.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\errorWithText.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\etag.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\evalScript.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\event\longLoadScript.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\headers.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\if_modified_since.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\json.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\jsonp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\name.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\nocontent.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\params_html.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\readywaitasset.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\script.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\statusText.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\support\csp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\test.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\test3.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\text.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\ua.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\data\with_fries_over_jsonp.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\jquery\test\xhtml.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\moment\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\moment\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\moment\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\moment\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\moment\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\moment\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\.bower.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\CNAME" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\docs\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\docs\images\background.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\docs\images\underscore.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\health_calendar\underscore\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\templates\calendar\modal popup.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Django-Bootstrap-Calendar.iml" afterPath="$PROJECT_DIR$/.idea/Django-Bootstrap-Calendar.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/calendar/base.html" afterPath="$PROJECT_DIR$/templates/calendar/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/bs-BA.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/bs-BA.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/css/calendar.css" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/css/calendar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/calendar.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/css/calendar.min.css" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/css/calendar.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/calendar.min.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/calendar.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/cs-CZ.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/cs-CZ.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/da-DK.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/da-DK.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/day.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/day.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/de-AT.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/de-AT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/de-DE.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/de-DE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/el-GR.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/el-GR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/es-ES.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/es-ES.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/es-MX.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/es-MX.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/calendar/event.html" afterPath="$PROJECT_DIR$/templates/calendar/event.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/events-list.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/events-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/fi-FI.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/fi-FI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/fr-FR.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/fr-FR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/hr-HR.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/hr-HR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/it-IT.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/it-IT.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ja-JP.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ja-JP.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ko-KR.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ko-KR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/modal.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/modal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models.py" afterPath="$PROJECT_DIR$/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/month-day.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/month-day.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/month.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/month.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/nl-NL.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/nl-NL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/no-NO.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/no-NO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/pl-PL.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/pl-PL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/pt-BR.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ro-RO.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ro-RO.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ru-RU.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/ru-RU.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/sl-SL.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/sl-SL.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/sv-SE.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/sv-SE.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/template.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/tr-TR.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/tr-TR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/underscore/underscore-min.js" afterPath="$PROJECT_DIR$/static/calendar/underscore/underscore-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/underscore/underscore.js" afterPath="$PROJECT_DIR$/static/calendar/underscore/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views.py" afterPath="$PROJECT_DIR$/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/week-days.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/week-days.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/week.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/week.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/year-month.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/year-month.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/year.html" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/year.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/zh-CN.js" afterPath="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/language/zh-CN.js" />
+    </list>
+    <list id="0107358f-f85c-4eb7-a432-c14278b2375c" name="Rejected commit: Default" comment="" />
     <ignored path="Django-Bootstrap-Calendar.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,25 +649,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4330011">
-              <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.15060908">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,7 +665,7 @@
         <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -58,7 +673,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/calendar/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal_popup.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/calendar/modal_popup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Html5" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,9 +709,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/admin.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/url.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/urls.py" />
+        <option value="$PROJECT_DIR$/templates/calendar/modal popup.html" />
+        <option value="$PROJECT_DIR$/templates/calendar/event.html" />
+        <option value="$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/calendar.js" />
+        <option value="$PROJECT_DIR$/templates/calendar/base.html" />
+        <option value="$PROJECT_DIR$/templates/calendar/modal_popup.html" />
+        <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/views.py" />
       </list>
     </option>
@@ -108,6 +759,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -128,15 +780,27 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="E:/SWEN Project/trunk/HealthNet_Project/HealthNet/healthnet/healthnet/health_calendar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FullScreen" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\underscore" />
+      <recent name="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar\static\calendar\moment" />
+      <recent name="C:\Users\Benjamin\Documents\GitHub\Django-Bootstrap-Calendar" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.Unnamed">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,6 +852,29 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Django-Bootstrap-Calendar" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,6 +894,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -319,8 +1012,38 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Unnamed" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python32\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Django-Bootstrap-Calendar" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Django server.Unnamed" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8ea32905-3242-4257-bc07-c24caf191417" name="Default" comment="" />
@@ -328,54 +1051,285 @@
       <option name="number" value="Default" />
       <updated>1432422329893</updated>
     </task>
+    <task id="LOCAL-00001" summary="added most features to the commit, testing still needs to  done.">
+      <created>1432612236699</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1432612236699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22457626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33082706" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="added most features to the commit, testing still needs to  done." />
+    <option name="LAST_COMMIT_MESSAGE" value="added most features to the commit, testing still needs to  done." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://E:/SWEN Project/trunk/HealthNet_Project/__init__.py">
+    <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018826135">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests.py">
+    <entry file="file://$PROJECT_DIR$/templates/calendar/modal_popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -389,11 +1343,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://E:/SWEN Project/trunk/HealthNet_Project/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018826135">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -401,18 +1375,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/moment/moment-with-locales.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/moment/moment-with-locales.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/underscore/underscore-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/underscore/underscore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/underscore/underscore-min.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/bootstrap-calendar/tmpls/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19384265">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/event.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/calendar/bootstrap-calendar/js/calendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4307863">
+          <caret line="76" column="44" selection-start-line="76" selection-start-column="44" selection-end-line="76" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/calendar/modal_popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4330011">
-          <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.15060908">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

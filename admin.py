@@ -1,4 +1,4 @@
 from django.contrib import admin
-from models import Event
+from BootstrapCalendar.models import Event
 
-admin.register(Event)
+admin.site.register(Event)

@@ -1,20 +1,26 @@
 {% load staticfiles %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ LANGUAGE_CODE }}">
+<!-- Current language: {{ LANGUAGE_CODE }} -->
 <head>
     <meta charset="UTF-8">
-    <title> {% block title %}Healthnet Calendar{% endblock %}</title>
+    <title> {% block title %}Bootstrap Calendar{% endblock %}</title>
     <link rel="stylesheet" href='{% static "calendar/bootstrap/css/bootstrap.min.css" %}'>
     <link rel="stylesheet" href='{% static "calendar/bootstrap-calendar/css/calendar.css" %}'>
-    <script type="text/javascript" src='{% static "calendar/jquery/jquery.min.js" %}'></script>
+    <script type="text/javascript" src='{% static "calendar/jquery/jquery-1.11.3.min.js" %}'></script>
     <script type="text/javascript" src='{% static "calendar/underscore/underscore-min.js" %}'></script>
     <script type="text/javascript" src='{% static "calendar/bootstrap/js/bootstrap.min.js" %}'></script>
     <script type="text/javascript" src='{% static "calendar/bootstrap-calendar/js/calendar.js" %}'></script>
-    <script type="text/javascript" src="js/language/{{ lang_code }}.js"></script>
+    <script type="text/javascript" src='{% static "calendar/bootstrap-calendar/js/WearProtection.js" %}'></script>
+    {% if LANGUAGE_CODE != 'en-us' %}
+    <script type="text/javascript" src='calendar/bootstrap-calendar/js/language/{{ LANGUAGE_CODE }}.js'></script>
+    {% endif %}
 </head>
 <body>
+<div class="container">
 {% block calendar %}
-    <div class="container">
     <div class="page-header">
         <div class="pull-right form-inline">
             <div class="btn-group">
@@ -32,73 +38,157 @@
         <h3></h3>
     </div>
     <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-12">
         <div id="calendar">
-            {% autoescape off %}
-                {% block calendar_function %}
-                    <script type="text/javascript">
-                        (function ($) {
-                            "use strict";
-                            var options = {
-                                events_source: '{% url Calendar %}',
-                                view: '{{ view|default:'month'}}',
-                                tmpl_path: '{% static 'calendar/bootstrap-calendar/tmpls/' %}',
-                                tmpl_cache: true,
-                                language: '{{ lang_code }}',
-                                onAfterEventsLoad: function (events) {
-                                    if (!events) {
-                                        return;
-                                    }
-                                    var list = $('#eventlist');
-                                    list.html('');
-                                    $.each(events, function (key, val) {
-                                        $(document.createElement('li'))
-                                                .html('<a href="' + val.url + '">' + val.title + '</a>')
-                                                .appendTo(list);
-                                    });
-                                },
-                                onAfterViewLoad: function (view) {
-                                    $('.page-header h3').text(this.getTitle());
-                                    $('.btn-group button').removeClass('active');
-                                    $('button[data-calendar-view="' + view + '"]').addClass('active');
-                                },
-                                classes: {months: {general: 'label'}}
-                            };
-                            var calendar = $('#calendar').calendar(options);
-                            $('.btn-group button[data-calendar-nav]').each(function () {
-                                var $this = $(this);
-                                $this.click(function () {
-                                    calendar.navigate($this.data('calendar-nav'));
-                                });
-                            });
-                            $('.btn-group button[data-calendar-view]').each(function () {
-                                var $this = $(this);
-                                $this.click(function () {
-                                    calendar.view($this.data('calendar-view'));
-                                });
-                            });
-                            $('#events-modal .modal-header, #events-modal .modal-footer').click(function (e) {
-                                //e.preventDefault();
-                                //e.stopPropagation();
-                            });
-                        }(jQuery));
-                    </script>
-                {% endblock %}
-            {% endautoescape %}
+
         </div>
     </div>
 {% endblock %}
-{% block eventlist %}
+{% block event_commands %}
+    <div class="col-md-3"></div>
+    <div class="col-md-3">
+    <div id="results"></div>
+    <button data-toggle="collapse" type="button" class="btn btn-info" data-target="#CreateEvent">Create Event</button>
+     <div id="CreateEvent" class="collapse" >
+        <div class="well">
+            <form method="post"  class="form-horizontal" id="create-form" >
+                {% csrf_token %}
+                {% for field in form %}
+                    <div class="form-group">
+                        <div hidden id="warning-{{ field.name }}" class="alert alert-danger" role="alert"></div>
+                        <label class="control-label" for="{{ field.id_for_label }}">{{ field.label }}</label>
+                        {{ field }}
+                    </div>
+                {% endfor %}
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+     </div>
+    </div>
+{% endblock %}
+{% if eventlist != None %}
     <div class="col-md-3">
         {% block eventtype %}<h4>Events</h4>{% endblock %}
         <ul id="eventlist" class="nav nav-list"></ul>
     </div>
-{% endblock %}
+{% endif %}
 </div>
+{% if modal %}
+    <div class="modal fade" id="events-modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h3>Event</h3>
+            </div>
+            <div class="modal-body" style="height: 400px">
+            </div>
+            <div class="modal-footer">
+                <a href="#" data-dismiss="modal" class="btn">Close</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
 <div class="clearfix"></div>
 <br><br>
-{% block modal_fade %}
-{% endblock %}
 </div>
+{% autoescape off %}
+{% block calendar_function %}
+<script type="text/javascript">
+(function($) {
+    "use strict";
+    var options = {
+        {% block calendar_options %}
+        width:'{{ width|default:'%100' }}',
+        time_start: '{{ day_time_start|default:'00:00' }}',
+        time_end: '{{ day_time_end|default:'24:00' }}',
+        time_split: '{{ day_time_split|default:'30' }}',
+        events_source: '{% url 'Calendar' %}',
+        view: '{{ view|default:'month'}}',
+        tmpl_path: '{% static 'calendar/bootstrap-calendar/tmpls/' %}',
+        tmpl_cache: {{ templ_cache|default:'true' }},
+        language: '{{ LANGUAGE_CODE|default:'EN_us' }}',
+        {% if modal %}
+        modal: '#events-modal',
+        modal_type: '{{ modal_type|default:'ajax' }}',
+        modal_title: function(event) { return event.title },
+        {% endif %}
+        onAfterEventsLoad: function (events) {
+            if (!events) {
+                return;
+            }
+            var list = $('#eventlist');
+            list.html('');
+            $.each(events, function (key, val) {
+                $(document.createElement('li'))
+                .html('<a href="' + val.url + '">' + val.title + '</a>')
+                .appendTo(list);
+            });
+        },
+        onAfterViewLoad: function (view) {
+            $(".page-header h3").text(this.getTitle());
+            $(".btn-group button").removeClass('active');
+            $('button[data-calendar-view="' + view + '"]').addClass('active');
+        },
+        classes: {months: {general: 'label'}}
+    };
+    {% endblock %}
+    var calendar = $('#calendar').calendar(options);
+    $(".btn-group button[data-calendar-nav]").each(function () {
+        var $this = $(this);
+        $this.click(function () {
+        calendar.navigate($this.data('calendar-nav'));
+        });
+    });
+    $(".btn-group button[data-calendar-view]").each(function () {
+        var $this = $(this);
+        $this.click(function () {
+        calendar.view($this.data('calendar-view'));
+        });
+    });
+    $('#create-form').submit(function(event){
+        var title = $('#create-title');
+        var type = $('#create-type');
+        var start = $('#create-start_datetime');
+        var end = $('#create-end_datetime');
+        event.preventDefault();
+        console.log('submitted');
+        $.ajax({
+            url: '/CreateEvent',
+            type: 'POST',
+            data: {
+                'title': title.val(),
+                'type': type.val(),
+                'start_datetime': start.val(),
+                'end_datetime': end.val()
+            },
+            success: function(data) {
+                console.log(data);
+                if (data.successful) {
+                    title.val('');
+                    start.val('');
+                    end.val('');
+                    $('#CreateEvent').collapse('hide');
+                    $('div.alert').each(function(){
+                        $(this).css('display', 'none');
+                    })
+                    calendar.view(options.view);
+                } else {
+                    for (var key in data) {
+                        var warning = document.getElementById("warning-".concat(key));
+                        warning.innerHTML = data[key][0];
+                        warning.style.display = 'block';
+                    }
+                }
+            }
+        })
+    });
+}(jQuery));
+</script>
+{% endblock %}
+{% endautoescape %}
 </body>
 </html>

@@ -6,7 +6,7 @@ class Event(models.Model):
     """
 
     title = models.TextField()
-    # TODO: test that datetime objects are not naive
+    # TODO: make datetime objects are not naive
     start_datetime = models.DateTimeField()
     end_datetime = models.DateTimeField()
 
@@ -17,7 +17,6 @@ class Event(models.Model):
     PURPLE = 'event-special'
     RED = 'event-important'
     GRAY = ''
-    # TODO: test that colors display correctly
     TYPE = (
         (BLUE, 'blue'),
         (YELLOW, 'yellow'),
@@ -43,15 +42,21 @@ class Event(models.Model):
         :param: event: the event to be testing to see if it overlaps
         :return: true if no conflicts, false if otherwise
         """
-        # TODO: implement
+        if (event.start_datetime < self.start_datetime < event.end_datetime
+            or event.start_datetime < self.end_datetime < event.end_datetime
+                or self.start_datetime < event.end_datetime and self.end_datetime < event.end_datetime):
+            return False
         return True
 
     def is_within(self, event):
-        """ Tests if one event is within another
+        """ Tests if this event is within another
         :param event: the event that is being tested against
         :return: True if the parameter event is within this instance, False if otherwise
         """
-        # TODO: implement
+        if (event.start_datetime < self.start_datetime < event.end_datetime
+                and event.start_datetime < self.end_datetime < event.end_datetime):
+            return True
+        return False
 
     def __str__(self):
         return self.title
