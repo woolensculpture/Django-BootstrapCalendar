@@ -25,7 +25,7 @@ class CalendarView(View):
         else:
             return render(self.request, 'calendar/base.html', {
                 'modal': True,
-                'form': EventForm()
+                'form': EventForm(),
             })
 
     def json_encode_list(self, eventlist):

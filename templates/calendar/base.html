@@ -44,13 +44,22 @@
         </div>
     </div>
 {% endblock %}
-{% block event_commands %}
-    <div class="col-md-3"></div>
+{% if eventlist != None %}
     <div class="col-md-3">
-    <div id="results"></div>
+        {% block eventtype %}<h4>Events</h4>{% endblock %}
+        <ul id="eventlist" class="nav nav-list"></ul>
+    </div>
+{% endif %}
+</div>
+</div>
+
+{% block event_commands %}
+<div class="container" style="padding-top: 25px">
+    <div class="row" >
+    <div class="col-md-3">
     <button data-toggle="collapse" type="button" class="btn btn-info" data-target="#CreateEvent">Create Event</button>
      <div id="CreateEvent" class="collapse" >
-        <div class="well">
+        <div class="well" style="padding-top: 25px">
             <form method="post"  class="form-horizontal" id="create-form" >
                 {% csrf_token %}
                 {% for field in form %}
@@ -67,14 +76,9 @@
         </div>
      </div>
     </div>
-{% endblock %}
-{% if eventlist != None %}
-    <div class="col-md-3">
-        {% block eventtype %}<h4>Events</h4>{% endblock %}
-        <ul id="eventlist" class="nav nav-list"></ul>
     </div>
-{% endif %}
-</div>
+    </div>
+{% endblock %}
 {% if modal %}
     <div class="modal fade" id="events-modal">
     <div class="modal-dialog">
@@ -94,7 +98,7 @@
 {% endif %}
 <div class="clearfix"></div>
 <br><br>
-</div>
+
 {% autoescape off %}
 {% block calendar_function %}
 <script type="text/javascript">
